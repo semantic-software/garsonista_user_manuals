@@ -60,3 +60,4 @@ mirror και εξαιρείται από το sync. Νέο manual = νέο md �
 | [SHIFTS.md](SHIFTS.md) | Βάρδιες: προσωπικού (Έναρξη/Λήξη, υποχρεωτική βάρδια, gate) & ταμείων (κλείσιμο, ανάλυση εισπράξεων, φόρτιση/εκφόρτιση, όψεις/εξαγωγές) |
 | [CALLER_ID.md](CALLER_ID.md) | Αναγνώριση Κλήσεων (Caller ID): ενεργοποίηση adminpanel/χρηστών, στήσιμο με Modem ή Router (Fritzbox/Oxygen), auto-μετάβαση σε νέα παραγγελία |
 | [PLATFORMS_EFOOD_WOLT_BOX.md](PLATFORMS_EFOOD_WOLT_BOX.md) | Διασύνδεση efood/Wolt/Box: ενεργοποίηση ComID, κλειδιά πλατφορμών, αντιστοίχιση ειδών, τραπέζια ανά πλατφόρμα, αποδοχή & αυτόματη απόδειξη |
+| [VIVA_CONNECTION.md](VIVA_CONNECTION.md) | Σύνδεση με Viva (QR Menu & Online Delivery): πηγή πληρωμών στη Viva, Merchant ID/API Key, καταχώρηση στις Ρυθμίσεις QR Menu |
