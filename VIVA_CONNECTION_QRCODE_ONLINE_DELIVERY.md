@@ -1,4 +1,4 @@
-# Εγχειρίδιο — Σύνδεση QR Menu & Online Delivery με Viva
+# Εγχειρίδιο — Σύνδεση QR Code Menu & Online Delivery με Viva
 
 > Για να δέχεται το κατάστημα **online πληρωμές με κάρτα** (στο QR Menu και
 > στο Online Delivery), πρέπει ο λογαριασμός Viva της επιχείρησης να συνδεθεί
