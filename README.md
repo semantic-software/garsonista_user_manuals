@@ -22,9 +22,31 @@
    τον support agent — μόνο ονόματα οθονών/κουμπιών/ρυθμίσεων όπως φαίνονται στο
    UI. Ό,τι αφορά βάση/κώδικα ανήκει στον φάκελο `docs/` (developers).
 
-> **Read-only mirror**: τα αρχεία αυτού του φακέλου συγχρονίζονται αυτόματα στο
-> https://github.com/semantic-software/garsonista_user_manuals — εκεί δίνεται
-> πρόσβαση ανάγνωσης σε τεχνικούς/agent, χωρίς πρόσβαση στον υπόλοιπο κώδικα.
+## Πολιτική δημοσίευσης (πώς φτάνει ένα manual στον κόσμο)
+
+Ο φάκελος αυτός είναι το **source of truth**. Η δημοσίευση είναι πλήρως
+αυτόματη — κανείς δεν αγγίζει τα παρακάτω βήματα με το χέρι:
+
+1. **Συγγραφή/αλλαγή** εδώ (`user_manuals/` του garsonista_web_app), πάντα με
+   **PR προς το `dev`** και τους κανόνες συγγραφής παραπάνω.
+2. Με το merge, GitHub Action (`.github/workflows/sync-user-manuals.yml`)
+   αντιγράφει τον φάκελο στο **read-only mirror repo**
+   https://github.com/semantic-software/garsonista_user_manuals — δημόσιο,
+   χωρίς κανένα άλλο κομμάτι του κώδικα.
+3. Από το mirror σερβίρεται το **GitHub Pages site**:
+   **https://semantic-software.github.io/garsonista_user_manuals/** — κάθε
+   manual έχει δική του σελίδα (π.χ. `DELIVERY_MODULE.html`).
+4. Ταυτόχρονα στέλνεται **ειδοποίηση στο Discord κανάλι εγχειριδίων** (με
+   @here): τι προστέθηκε/άλλαξε, με link στη σελίδα του.
+
+**Για agents συνεργατών**: η γνώση καταναλώνεται είτε από το Pages site είτε
+από τα raw md του mirror repo — ποτέ από αυτό το (private) repo.
+
+**Τεχνικά της ροής [ΤΕΧΝΙΚΟΣ]**: το sync αυθεντικοποιείται με deploy key του
+mirror (secret `MANUALS_SYNC_SSH_KEY` στο garsonista_web_app) και το Discord
+με το secret `MANUALS_DISCORD_WEBHOOK`. Το `_config.yml` (Jekyll) ζει μόνο στο
+mirror και εξαιρείται από το sync. Νέο manual = νέο md εδώ + γραμμή στον
+παρακάτω πίνακα — τίποτα άλλο.
 
 ## Περιεχόμενα
 
@@ -32,3 +54,4 @@
 |---|---|
 | [DELIVERY_MODULE.md](DELIVERY_MODULE.md) | Module Delivery: σετάρισμα, καταχώρηση, Ροή Παραγγελιών, ντελιβεράδες & δρομολόγια, προφορτώσεις, QR παραγγελίας |
 | [WEB_PRINT_SERVICE.md](WEB_PRINT_SERVICE.md) | Web Print Service: ενεργοποίηση (adminpanel), εκτυπωτές & κανόνες εκτύπωσης, τα 3 pollings, Logs εκτυπώσεων, αντιμετώπιση προβλημάτων |
+| [QR_MENU.md](QR_MENU.md) | QR Menu: ενεργοποίηση, Ρυθμίσεις QR Menu (πληρωμές/Viva/κατηγορίες/απόδειξη/μεταφράσεις), QR τραπεζιών, εμπειρία πελάτη, εκκρεμείς πληρωμές |
