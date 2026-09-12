@@ -53,6 +53,7 @@ mirror και εξαιρείται από το sync. Νέο manual = νέο md �
 | Αρχείο | Θέμα |
 |---|---|
 | [GARSONISTA_INSTALLATION.md](GARSONISTA_INSTALLATION.md) | Εγκατάσταση Garsonista Online Παραγγελιοληψία (Cloud Ταμειακή / με Web Print Service): κατέβασμα installer, SemanticInstaller.exe, «Έναρξη εγκατάστασης» |
+| [PRINTER_DRIVER_TP80K.md](PRINTER_DRIVER_TP80K.md) | Εκτυπωτής Cloud Ταμειακής: εγκατάσταση driver TP80K (HPRT / κλασικοί POS80) στα Windows, ρύθμιση χαρτιού 72mm & Save Paper, δήλωση εκτυπωτή στο Garsonista (defparams.txt) |
 | [DELIVERY_MODULE.md](DELIVERY_MODULE.md) | Module Delivery: σετάρισμα, καταχώρηση, Ροή Παραγγελιών, ντελιβεράδες & δρομολόγια, προφορτώσεις, QR παραγγελίας |
 | [WEB_PRINT_SERVICE.md](WEB_PRINT_SERVICE.md) | Web Print Service: ενεργοποίηση (adminpanel), εκτυπωτές & κανόνες εκτύπωσης, τα 3 pollings, Logs εκτυπώσεων, αντιμετώπιση προβλημάτων |
 | [QR_MENU.md](QR_MENU.md) | QR Menu: ενεργοποίηση, Ρυθμίσεις QR Menu (πληρωμές/Viva/κατηγορίες/απόδειξη/μεταφράσεις), QR τραπεζιών, εμπειρία πελάτη, εκκρεμείς πληρωμές |
