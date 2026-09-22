@@ -63,3 +63,4 @@ mirror και εξαιρείται από το sync. Νέο manual = νέο md �
 | [CALLER_ID.md](CALLER_ID.md) | Αναγνώριση Κλήσεων (Caller ID): ενεργοποίηση adminpanel/χρηστών, στήσιμο με Modem ή Router (Fritzbox/Oxygen), auto-μετάβαση σε νέα παραγγελία |
 | [PLATFORMS_EFOOD_WOLT_BOX.md](PLATFORMS_EFOOD_WOLT_BOX.md) | Διασύνδεση efood/Wolt/Box: ενεργοποίηση ComID, κλειδιά πλατφορμών, αντιστοίχιση ειδών, τραπέζια ανά πλατφόρμα, αποδοχή & αυτόματη απόδειξη |
 | [VIVA_CONNECTION_QRCODE_ONLINE_DELIVERY.md](VIVA_CONNECTION_QRCODE_ONLINE_DELIVERY.md) | Σύνδεση QR Code Menu & Online Delivery με Viva: πηγή πληρωμών στη Viva, Merchant ID/API Key, καταχώρηση στις Ρυθμίσεις QR Menu |
+| [BACKUP_ENDPOINTS.md](BACKUP_ENDPOINTS.md) | Εφεδρικά endpoints (garsonista4): πότε χρειάζονται (Starlink/κοινόχρηστη IP, DNS), εναλλαγή default ⇄ garsonista4 χωρίς κωδικό στο Android app («Επιλογές Τεχνικού») και στην Cloud Ταμειακή («Ρυθμίσεις», defurl.txt), χειροκίνητο endpoint με κωδικό |
