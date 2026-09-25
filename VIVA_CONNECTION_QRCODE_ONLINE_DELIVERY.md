@@ -49,8 +49,11 @@ APPS»**:
   είναι το πρώτο από τα τρία στοιχεία και θα μπει στο πεδίο «viva_code» των
   Ρυθμίσεων QR Menu (§4).
 - **«Όνομα πηγής»** και **«Όνομα Domain»**: στη θέση του «bowlingcityclub»
-  που εμφανίζεται στην εικόνα βάζουμε τη λέξη **«sites»** — δηλαδή
-  `sites.garsonista.gr`.
+  που εμφανίζεται στην εικόνα βάζουμε το domain της υπηρεσίας για την οποία
+  φτιάχνουμε την πηγή πληρωμών:
+  - για το **QR Code Menu** βάζουμε τη λέξη **«sites»** — δηλαδή
+    `sites.garsonista.gr`,
+  - για την **Online Delivery Platform** βάζουμε `doordrop.gr`.
 - **«Πρωτόκολλο»**: επιλέγουμε οπωσδήποτε **HTTPS**.
 - **«URL Επιτυχημένης συναλλαγής»**: `main/checkout_complete_self/`
 - **«URL Αποτυχημένης συναλλαγής»**: `main/checkout_cancel_self/`
@@ -135,7 +138,8 @@ APPS»**:
   (θέλει HTTPS), και λάθος/ελλιπή URLs επιτυχίας-αποτυχίας. Τα URLs
   συμπληρώνονται **μετά** το domain, ακριβώς: `main/checkout_complete_self/`
   και `main/checkout_cancel_self/`.
-- **Domain**: `sites.garsonista.gr` (στη θέση του παραδείγματος της εικόνας).
+- **Domain** (στη θέση του παραδείγματος της εικόνας): για το **QR Code Menu**
+  `sites.garsonista.gr`, για την **Online Delivery Platform** `doordrop.gr`.
 - **Ευαίσθητα στοιχεία**: Merchant ID/API Key κρυπτογραφούνται και δεν
   επανεμφανίζονται — μην τα αποθηκεύεις σε άλλα σημεία, και μην τα στέλνεις
   σε ομαδικές συζητήσεις.
