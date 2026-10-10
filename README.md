@@ -54,7 +54,7 @@ mirror και εξαιρείται από το sync. Νέο manual = νέο md �
 |---|---|
 | [GARSONISTA_INSTALLATION.md](GARSONISTA_INSTALLATION.md) | Εγκατάσταση Garsonista Online Παραγγελιοληψία (Cloud Ταμειακή / με Web Print Service): κατέβασμα installer, SemanticInstaller.exe, «Έναρξη εγκατάστασης» |
 | [PRINTER_DRIVER_TP80K.md](PRINTER_DRIVER_TP80K.md) | Εκτυπωτής Cloud Ταμειακής: εγκατάσταση driver TP80K (HPRT / κλασικοί POS80) στα Windows, ρύθμιση χαρτιού 72mm & Save Paper, δήλωση εκτυπωτή στο Garsonista (defparams.txt) |
-| [DELIVERY_MODULE.md](DELIVERY_MODULE.md) | Module Delivery: σετάρισμα, καταχώρηση, Ροή Παραγγελιών, ντελιβεράδες & δρομολόγια, προφορτώσεις, QR παραγγελίας |
+| [DELIVERY_MODULE.md](DELIVERY_MODULE.md) | Module Delivery: σετάρισμα, καταχώρηση, **στοιχεία πελάτη με προτάσεις διευθύνσεων, χάρτη και ένδειξη εντός/εκτός περιοχής delivery**, Ροή Παραγγελιών, ντελιβεράδες & δρομολόγια, προφορτώσεις, QR παραγγελίας |
 | [WEB_PRINT_SERVICE.md](WEB_PRINT_SERVICE.md) | Web Print Service: ενεργοποίηση (adminpanel), εκτυπωτές & κανόνες εκτύπωσης, **εκτυπωτές χώρου** (ολόκληρη η παραγγελία σε έναν ή περισσότερους εκτυπωτές ανά χώρο), τα 3 pollings, Logs εκτυπώσεων, αντιμετώπιση προβλημάτων |
 | [MODIFIER_CONSUMPTION_PRINT.md](MODIFIER_CONSUMPTION_PRINT.md) | Τροποποιητές που αναλώνουν προϊόν: «Αναλώνει προϊόν» / «Ποσότητα ανάλωσης», εκτύπωση του είδους ανάλωσης ως γραμμή είδους στον δικό του εκτυπωτή (Web Print Service & Cloud Ταμειακή) |
 | [PREDEFINED_COMMENTS.md](PREDEFINED_COMMENTS.md) | Προκαθορισμένα σχόλια παραγγελίας: δημιουργία/σειρά/διαγραφή από Διαχειριστικό → ΠΡΟΪΟΝΤΑ, επιλογή στο καλάθι (web & Android app), τραπέζι με υποχρεωτικό σχόλιο, δικαιώματα |
